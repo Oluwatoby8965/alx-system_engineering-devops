@@ -1,1 +1,2 @@
-a new working directory
+#!/bin/bash
+pwd
