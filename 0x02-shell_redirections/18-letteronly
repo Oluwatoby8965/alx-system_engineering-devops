@@ -1,2 +1,2 @@
 #!/bin/bash
-grep "AbcdEFG" /etc/ssh/sshd_config
+grep -p "AbcdEFG" /etc/ssh/sshd_config
