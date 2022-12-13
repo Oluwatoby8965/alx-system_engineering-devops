@@ -1,6 +1,4 @@
-![206904248-fbf0ddd9-a020-4b6e-8680-6d051e3a8675]
-
-(https://user-images.githubusercontent.com/102077396/207019269-25644246-dc95-4798-9cd8-495bc29cfb78.jpg)
+![206904248-fbf0ddd9-a020-4b6e-8680-6d051e3a8675](https://user-images.githubusercontent.com/102077396/207019269-25644246-dc95-4798-9cd8-495bc29cfb78.jpg)
 
 ## Description
 
