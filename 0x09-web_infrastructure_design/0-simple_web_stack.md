@@ -2,7 +2,7 @@
 
 (https://user-images.githubusercontent.com/102077396/207019269-25644246-dc95-4798-9cd8-495bc29cfb78.jpg)
 
-Description
+## Description
 
 This is a simple web infrastructure that hosts a website that is reachable via www.foobar.com. There are no firewalls or SSL certificates for protecting the server's network. Each component (database, application server) has to share the resources (CPU, RAM, and SSD) provided by the server. Specifics About This Infrastructure
 
