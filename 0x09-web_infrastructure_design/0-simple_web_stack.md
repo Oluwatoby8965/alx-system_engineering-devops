@@ -1,4 +1,6 @@
-![206904248-fbf0ddd9-a020-4b6e-8680-6d051e3a8675](https://user-images.githubusercontent.com/102077396/207019269-25644246-dc95-4798-9cd8-495bc29cfb78.jpg)
+![206904248-fbf0ddd9-a020-4b6e-8680-6d051e3a8675]
+
+(https://user-images.githubusercontent.com/102077396/207019269-25644246-dc95-4798-9cd8-495bc29cfb78.jpg)
 
 Description
 
@@ -36,4 +38,4 @@ Downtime when maintenance needed.
 When we need to run some maintenance checks on any component, they have to be put down or the server has to be turned off. Since there's only one server, the website would be experiencing a downtime.
 
 Cannot scale if there's too much incoming traffic.
-It would be hard to scale this infrastructure becauses one server contains the required components. The server can quickly run out of resour
+It would be hard to scale this infrastructure becauses one server contains the required components. The server can quickly run out of resources.
