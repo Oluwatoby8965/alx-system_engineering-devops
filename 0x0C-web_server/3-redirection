@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Create redirect
-INDEX_COPY="Holberton School for the win!"
+INDEX_COPY="Hello World!"
 
 sudo apt-get -y update
 sudo apt-get -y install nginx
