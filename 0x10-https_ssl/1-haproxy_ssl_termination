@@ -33,13 +33,21 @@ defaults
 	errorfile 503 /etc/haproxy/errors/503.http
 	errorfile 504 /etc/haproxy/errors/504.http
 
-frontend myfrontend
-	bind *:80
-	bind *:443 ssl crt /etc/haproxy/certs/www.djmixphiit.tech.pem
-	http-request redirect scheme https code 301 if { hdr(Host) -i www.djmixphiit.tech } !{ ssl_fc }
-	default_backend myservers
+# start of parameters for djmixphiit.tech
+frontend djmixphiit.tech-http-frontend
+	bind	 *:80
+	http-request set-header X-Forwarded-Proto http
+	default_backend	 djmixphiit.tech-backend
 
-backend myservers
-	balance roundrobin
-	server web-01 100.26.169.21:80 check
-	server web-02 100.26.121.109:80 check
+
+frontend  djmixphiit.tech-https-frontend
+	bind *:443 ssl crt /etc/ssl/djmixphiit.tech.pem
+	http-request set-header X-Forwarded-Proto https
+        default_backend djmixphiit.tech-backend
+
+
+backend djmixphiit.tech-backend
+        balance roundrobin
+        server 87235-web-01 100.26.169.21:80 check
+        server 87235-web-02 100.26.121.109:80 check
+# end of parameters
