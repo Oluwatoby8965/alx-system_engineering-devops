@@ -20,4 +20,4 @@ ExecStart=/home/ubuntu/.local/bin/gunicorn \
 
 [Install]
 WantedBy=multi-user.target
-RequiredBy=shutdown.target:wq
+RequiredBy=shutdown.target
